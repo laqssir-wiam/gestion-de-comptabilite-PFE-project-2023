@@ -1,0 +1,21 @@
+type Query{
+    # Query for "CompteGeneral"
+    listeDePubs(userId:String):[Publicite]
+    listeDePublicationAll:[Publicite]
+}
+type Mutation{
+    ajouterPublicite(publiciteDTO:PubliciteDTO):Publicite
+    supprimerPublicite(id:String):Publicite
+}
+type Publicite{
+    id :String,
+    user_id :String ,
+    username: String ,
+    contenue :String
+}
+input PubliciteDTO{
+    user_id :String ,
+    username: String ,
+    contenue :String
+}
+

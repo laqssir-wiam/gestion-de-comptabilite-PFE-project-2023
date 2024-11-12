@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75e3f878-c771-48b7-a404-07c48ec4cccf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/CompteBancaireGraphQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/CompteBancaireGraphQLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/CodeJournauxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/CodeJournauxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/JournaleGraphQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/JournaleGraphQLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/SaisieJournauxGraphQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/SaisieJournauxGraphQLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/ges/gatewayservice/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/ges/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/OfficeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/OfficeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/security/JwtAuthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/security/JwtAuthConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-project/compta-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-project/compta-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-project/compta-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-project/compta-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-project/compta-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-project/compta-frontend/src/app/app.module.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/banque-service" />
+  </component>
+  <component name="ProjectId" id="2UGTdUBr6O30vXTqUtBc7IznSCA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75e3f878-c771-48b7-a404-07c48ec4cccf" name="Changes" comment="" />
+      <created>1692565004607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692565004607</updated>
+      <workItem from="1692565006923" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

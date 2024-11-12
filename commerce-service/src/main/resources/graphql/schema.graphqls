@@ -1,0 +1,63 @@
+type Query{
+    # Query for "CompteGeneral"
+    allSocieteClients(idSociete:String):[ClientSociete]
+    getClientById(idClient:String):ClientSociete
+    listOfProduitOfClient(idClient:String):[Produit]
+    listOperationClient(idClient:String):[Operation]
+    allProduit:[Produit]
+}
+type Mutation{
+    addClient(clientSocieteDTO:ClientSocieteDTO,idClient:String):ClientSociete
+    deleteClient(clientId:String):ClientSociete
+    updateClient(clientDTO:ClientSocieteDTO,clientId:String):ClientSociete
+    updateClientSocieteIsActif(isActif:Boolean,idClient:String):ClientSociete
+    ajouterProduit(produitDTO:ProduitDTO):Produit
+    updateQnt(idProduit:String,qnt:Int):Produit
+    deleteall:[Produit]
+    removeOperation(idOperation:String):Operation
+}
+type ClientSociete{
+    id :String,
+    firstname :String ,
+    lastname: String ,
+    email :String,
+    responsabilite: String ,
+    telephone: String ,
+    societeId: String,
+    isActif: Boolean
+
+}
+
+input ClientSocieteDTO{
+    firstname :String ,
+    lastname: String ,
+    email :String,
+    responsabilite: String ,
+    telephone: String ,
+    societeId: String,
+    isActif: Boolean
+
+}
+
+type Produit{
+    id :String ,
+    ref :String ,
+    libelle :String ,
+    quantite :Int ,
+    clientId: String ,
+    prix: Float
+}
+input ProduitDTO{
+    ref :String ,
+    libelle :String ,
+    quantite :Int ,
+    clientId: String ,
+    prix: Float
+}
+type Operation{
+    id: String ,
+    operation: String ,
+    produit: Produit,
+    qnt: Int
+
+}
