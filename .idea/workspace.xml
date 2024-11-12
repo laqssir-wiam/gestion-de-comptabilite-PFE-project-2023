@@ -2,19 +2,144 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75e3f878-c771-48b7-a404-07c48ec4cccf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/banque-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/dto/PlanComptableDTOKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/dto/SocieteDTOKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-model/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chating-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chating-service/src/main/java/com/ges/chatingservice/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-fourniseur-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/dto/PlanComptableDTOKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/dto/SocieteDTOKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/config-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercice-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/dto/PlanComptableDTOKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/dto/SocieteDTOKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/dto/SocieteDTOKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plan-comptable-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/dto/PlanComptableDTOKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/dto/SocieteDTOKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/BanqueServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/BanqueServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/config/InitialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/config/InitialData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/kafka/PlanComptableConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/kafka/PlanComptableConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/kafka/SocieteConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/kafka/SocieteConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/security/JwtAuthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/security/JwtAuthConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/PlanComptableElementKafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/PlanComptableElementKafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/PlanComptableRestClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/PlanComptableRestClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/SocieteKafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/SocieteKafkaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/CompteBancaireGraphQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/CompteBancaireGraphQLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/CompteBancaireOpenFiegnRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/CompteBancaireOpenFiegnRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/PlanComptableElementKafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/PlanComptableElementKafkaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/SocieteKafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/SocieteKafkaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banque-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-model" beforeDir="false" afterPath="$PROJECT_DIR$/base-model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-model/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-model/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chating-service" beforeDir="false" afterPath="$PROJECT_DIR$/chating-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chating-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chating-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chating-service/src/main/java/com/ges/chatingservice/service/ChatRoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chating-service/src/main/java/com/ges/chatingservice/service/ChatRoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chating-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chating-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/ClientFourniseurServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/ClientFourniseurServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/kafka/PlanComptableConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/kafka/PlanComptableConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/kafka/SocieteConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/kafka/SocieteConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/security/JwtAuthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/security/JwtAuthConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/service/PlanComptableElementKafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/service/PlanComptableElementKafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/service/SocieteKafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/service/SocieteKafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/service/SocieteRestClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/service/SocieteRestClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/web/PlanComptableElementKafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/web/PlanComptableElementKafkaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/web/SocieteKafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/java/com/ges/clientfourniseurservice/web/SocieteKafkaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-fourniseur-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client-fourniseur-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service" beforeDir="false" afterPath="$PROJECT_DIR$/config-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/ExerciceServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/ExerciceServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/config/InitialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/config/InitialData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/dto/CodeJournauxDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/dto/CodeJournauxDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/CodeJournaux.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/CodeJournaux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/Exercice.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/Exercice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/ExerciceEtat.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/ExerciceEtat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/Journale.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/Journale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/JournaleProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/JournaleProjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/SaisieJournaux.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/SaisieJournaux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/SaisieJournauxProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/entities/SaisieJournauxProjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/kafka/PlanComptableConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/kafka/PlanComptableConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/kafka/SocieteConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/kafka/SocieteConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/model/AdmineBureau.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/model/AdmineBureau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/model/Bureau.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/model/Bureau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/model/CompteUtilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/model/CompteUtilisateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/model/Societe.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/model/Societe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/repository/CodeJournauxRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/repository/CodeJournauxRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/repository/ExerciceEtatRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/repository/ExerciceEtatRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/repository/ExerciceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/repository/ExerciceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/repository/JournaleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/repository/JournaleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/repository/SaisieJournalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/repository/SaisieJournalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/security/FeignClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/security/FeignClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/security/JwtAuthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/security/JwtAuthConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/service/PlanComptableElementKafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/service/PlanComptableElementKafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/service/PlanComptableRestClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/service/PlanComptableRestClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/service/SocieteKafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/service/SocieteKafkaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/CodeJournauxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/CodeJournauxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/ExerciceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/ExerciceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/ExerciceEtatGraphQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/ExerciceEtatGraphQLController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/JournaleGraphQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/JournaleGraphQLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/PlanComptableElementKafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/PlanComptableElementKafkaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/SaisieJournauxGraphQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/SaisieJournauxGraphQLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/SocieteKafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/java/com/ges/exerciceservice/web/SocieteKafkaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercice-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercice-service/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-service/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/ges/gatewayservice/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/ges/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office-service" beforeDir="false" afterPath="$PROJECT_DIR$/office-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/office-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/OfficeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/OfficeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/config/InitialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/config/InitialData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/entities/CompteUtilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/entities/CompteUtilisateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/kafka/SocieteProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/kafka/SocieteProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/security/JwtAuthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/security/JwtAuthConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/web/OfficeConfigTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/java/com/ges/officeservice/web/OfficeConfigTestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/office-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/office-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plan-comptable-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/PlanComptableServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/PlanComptableServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/config/InitialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/config/InitialData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/entities/CompteGeneral.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/entities/CompteGeneral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/entities/PlanComptableElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/entities/PlanComptableElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/kafka/PlanComptableElementProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/kafka/PlanComptableElementProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/kafka/SocieteConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/kafka/SocieteConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/security/JwtAuthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/security/JwtAuthConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/service/PlanComptableKafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/service/PlanComptableKafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/service/PlanComptableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/service/PlanComptableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/service/SocieteKafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/service/SocieteKafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/web/PlanComptableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/web/PlanComptableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/web/SocieteGraphQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/web/SocieteGraphQLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/web/SocieteKafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/web/SocieteKafkaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan-comptable-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service" beforeDir="false" afterPath="$PROJECT_DIR$/security-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/SecurityServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/SecurityServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/controller/GraphQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/controller/GraphQLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/security/JwtAuthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/security/JwtAuthConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/service/AdminClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/ges/securityservice/service/AdminClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/security-service/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-project/compta-frontend" beforeDir="false" afterPath="$PROJECT_DIR$/web-project/compta-frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-project/compta-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-project/compta-frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-project/compta-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-project/compta-frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-project/compta-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-project/compta-frontend/src/app/app.module.ts" afterDir="false" />
@@ -25,8 +150,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/banque-service" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/banque-service" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2UGTdUBr6O30vXTqUtBc7IznSCA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,7 +179,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/WIAM/Desktop/spring pfe"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
