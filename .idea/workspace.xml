@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75e3f878-c771-48b7-a404-07c48ec4cccf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/banque-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/dto/PlanComptableDTOKafka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/dto/SocieteDTOKafka.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/base-model/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chating-service/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chating-service/src/main/java/com/ges/chatingservice/controller/TestController.java" afterDir="false" />
@@ -26,23 +23,6 @@
       <change afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/dto/PlanComptableDTOKafka.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/plan-comptable-service/src/main/java/com/ges/plancomptableservice/dto/SocieteDTOKafka.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/security-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/BanqueServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/BanqueServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/config/InitialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/config/InitialData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/kafka/PlanComptableConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/kafka/PlanComptableConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/kafka/SocieteConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/kafka/SocieteConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/security/JwtAuthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/security/JwtAuthConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/PlanComptableElementKafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/PlanComptableElementKafkaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/PlanComptableRestClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/PlanComptableRestClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/SocieteKafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/service/SocieteKafkaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/CompteBancaireGraphQLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/CompteBancaireGraphQLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/CompteBancaireOpenFiegnRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/CompteBancaireOpenFiegnRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/PlanComptableElementKafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/PlanComptableElementKafkaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/SocieteKafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/java/com/ges/banqueservice/web/SocieteKafkaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banque-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banque-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base-model" beforeDir="false" afterPath="$PROJECT_DIR$/base-model" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-model/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base-model/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-model/src/main/resources/application.properties" afterDir="false" />
@@ -184,9 +164,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "<unknown>",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/WIAM/Desktop/spring pfe"
+    "last_opened_file_path": "C:/Users/WIAM/Desktop/spring pfe",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
