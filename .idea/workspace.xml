@@ -5,17 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75e3f878-c771-48b7-a404-07c48ec4cccf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/security/JwtAuthConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/ges/gatewayservice/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/ges/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
